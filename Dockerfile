@@ -1,7 +1,7 @@
 # ==========================================
 # STAGE 1: BUILDER (Heavyweight)
 # ==========================================
-FROM python:3.11-slim-bookworm as builder
+FROM python:3.14-slim-bookworm as builder
 
 # Install system build dependencies (e.g., gcc for compiling python extensions)
 RUN apt-get update && apt-get install -y --no-install-recommends \
