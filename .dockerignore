@@ -1,0 +1,75 @@
+# Python cache
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv
+env
+ENV
+.venv
+
+# Distribution / packaging
+build
+dist
+*.egg-info
+.eggs
+
+# Environment files
+.env
+.env.*
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+#README.md
+#*.md
+docs
+
+# Tests
+.pytest_cache
+.coverage
+htmlcov
+.tox
+.mypy_cache
+.ruff_cache
+tests
+test_*.py
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs
+
+# CI/CD
+.github
+.gitlab-ci.yml
+.travis.yml
+
+# Alembic (if not needed in container)
+# alembic
+
+# Misc
+.dockerignore
+Dockerfile
+docker-compose*.yml
